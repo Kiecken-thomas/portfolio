@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+    <section>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#About">About me</a>
+            <a href="#projects">projects</a>
+            <a href="#hard-skills">Hard-skills</a>
+            <a href="#soft-skills">Soft-skills</a>
+            <a href="#contact">contact</a>
+        </nav>
+    </section> 
+    </header>
+    <section id="home">
+        <div class="hero-text">
+            <p>I ' M</p>
+            <h1>THOMAS.<span>K</span></h1>
+            <div class="carousel">
+                <div class="track">
+                    <p>Developer</p>
+                    <p>Student</p>
+                    <p>IT Lover</p>
+                </div>
+            </div>
+            <button><a href="#projects">Check out my projects</a></button>
+        </div>
+    </section>
+    <section id="About">
+        <h1>About me</h1>
+
+        <div class="about-container">
+
+            <div class="about-photo">
+                <img src="assets/img/thomas.png" alt="about me">
+            </div>
+
+            <div class="about-text">
+                <p>
+                Je suis Thomas, passionné par l'informatique, la programmation et les projets créatifs.
+                J'aime construire des outils, automatiser des tâches et créer des projets techniques.
+                </p>
+
+                <p>
+                Je travaille principalement avec Python, JavaScript et différentes technologies web.
+                J'aime aussi explorer des domaines comme la vision par ordinateur ou les serveurs.
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+
+        <h1>Mes projets</h1>
+
+            <div class="projects-grid">
+
+                <div class="card">
+                    <img src="assets/img/BD.png">
+                    <h2>Base de Donnée</h2>
+                    <p>Création d'un base de donnée</p>
+                    <button onclick="openModal('Base de Donnée','assets/img/BD.png','Ce projet a été réalisé en groupe de deux à l IUT. Il consistait en la création et l installation d une base de données via le langage SQL et en l utilisation de celle-ci via des requêtes')">
+                        Voir plus
+                    </button>
+                </div>
+
+                <div class="card">
+                    <img src="assets/img/logo-ATR.png">
+                    <h2>Site Web</h2>
+                    <p>Création d'un site web pour une agence de voyage</p>
+                    <button onclick="openModal('Base de Donnée','assets/img/BD.png','Ce projet a été réalisé en groupe de deux à l IUT. Il consistait en la création et l installation d une base de données via le langage SQL et en l utilisation de celle-ci via des requêtes')">
+                        Voir plus
+                    </button>
+                </div>
+
+                <div class="card">
+                    <img src="assets/img/JV.gif">
+                    <h2>Jeu video simple</h2>
+                    <p>Création d'un jeu video simple de C++</p>
+                    <button onclick="openModal('Base de Donnée','assets/img/BD.png','Ce projet a été réalisé en groupe de deux à l IUT. Il consistait en la création et l installation d une base de données via le langage SQL et en l utilisation de celle-ci via des requêtes')">
+                        Voir plus
+                    </button>
+                </div>
+
+                <div class="card">
+                    <img src="assets/img/FV.png">
+                    <h2>Jeu video complexe</h2>
+                    <p>Création d'un jeu video en 24H avec Godot Engine</p>
+                    <button onclick="openModal('Base de Donnée','assets/img/BD.png','Ce projet a été réalisé en groupe de deux à l IUT. Il consistait en la création et l installation d une base de données via le langage SQL et en l utilisation de celle-ci via des requêtes')">
+                        Voir plus
+                    </button>
+                </div>
+
+                <div class="card">
+                    <img src="assets/img/website.png">
+                    <h2>Site web</h2>
+                    <p>Création d'un site web pour louer des logements</p>
+                    <button onclick="openModal('Base de Donnée','assets/img/BD.png','Ce projet a été réalisé en groupe de deux à l IUT. Il consistait en la création et l installation d une base de données via le langage SQL et en l utilisation de celle-ci via des requêtes')">
+                        Voir plus
+                    </button>
+                </div>
+
+                <div class="card">
+                    <img src="assets/img/CAP.png">
+                    <h2>Logiciel de présence</h2>
+                    <p>Création d'un logiciel pour compter les entrée et sorties</p>
+                    <button onclick="openModal('Base de Donnée','assets/img/BD.png','Ce projet a été réalisé en groupe de deux à l IUT. Il consistait en la création et l installation d une base de données via le langage SQL et en l utilisation de celle-ci via des requêtes')">
+                        Voir plus
+                    </button>
+                </div>
+            </div>
+    </section>
+
+<section id="hard-skills">
+
+    <h1>Hard Skills</h1>
+    <div class="HS">
+        <div>
+            <p>HTML</p>
+            <progress value="90" max="100"></progress>
+        </div>
+
+        <div>
+            <p>CSS</p>
+            <progress value="85" max="100"></progress>
+        </div>
+
+        <div>
+            <p>JS</p>
+            <progress value="35" max="100"></progress>
+        </div>
+
+        <div>
+            <p>C#</p>
+            <progress value="65" max="100"></progress>
+        </div>
+
+        <div>
+            <p>SQL</p>
+            <progress value="85" max="100"></progress>
+        </div>
+
+        <div>
+            <p>ANGLAIS</p>
+            <progress value="75" max="100"></progress>
+        </div>
+
+        <div>
+            <p>PENPOT</p>
+            <progress value="65" max="100"></progress>
+        </div>
+
+        <div>
+            <p>JAVA</p>
+            <progress value="85" max="100"></progress>
+        </div>
+
+        <div>
+            <p>GIT</p>
+            <progress value="70" max="100"></progress>
+        </div>
+
+        <div>
+            <p>C++</p>
+            <progress value="90" max="100"></progress>
+        </div>
+
+        <div>
+            <p>GDSCRIPT</p>
+            <progress value="65" max="100"></progress>
+        </div>
+    </div>
+</section>
+
+    <section id="soft-skills">
+
+        <h1>Soft-skills</h1>
+
+            <h2>Friendly • Hard Worker • A good listener • Motivating • Persistent • Outgoing • Curious</h2>
+       
+    </section>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2 id="modalTitle"></h2>
+            <img id="modalImg" style="width:100%">
+            <p id="modalText"></p>
+        </div>
+    </div>
+
+    <footer>
+        <a href="mailto:thomas@kiecken.com?subject=Apprentissage%20%3CNom%20de%20votre%20société%3E&body=Bonjour,">
+            <img src="assets/logo/mail.png" alt="">
+        </a>
+        <a href=""><img src="assets/logo/github.png" alt=""></a>
+        <a href=""><img src="assets/logo/linkedin.webp"></a>
+    </footer>
+</body>
+</html>
