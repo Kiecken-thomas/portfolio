@@ -1,0 +1,23 @@
+Projet BD :
+
+In this project, I had the opportunity to experiment with database creation using software and websites such as: Mocodo for the relational schema, Looping for the conceptual data model, and SQLDeveloper to set up the database using SQL scripts. After creating our database, we were tasked with running queries to assess its robustness and usability. This project was a two-person team effort and lasted approximately two months.
+
+Projet comewave :
+
+For this project, we were tasked with building a website from scratch for a fictional travel agency. I think I can say it was one of the most interesting projects; we worked in pairs. We were graded on the relevance of the various descriptions for the trips, for example. We were also largely evaluated on the technical aspects, specifically the coding. This project was very interesting because it gave us a great deal of freedom at every level.
+
+Projet jeu simple :
+
+This project involved creating a 2D game set entirely within a single scene, but since we were using C++ exclusively, we had to build our own game loops and gameplay events from scratch, unlike a project using a game engine. This project took place at the end of the C++ course, so it allowed me to assess my proficiency in C++ and also enabled me to delve deeper into object-oriented development.
+
+Projet GameJam :
+
+While participating in a game jam, I had the chance to experiment with video game development using a game engine—in this case, the Godot engine. The theme was “Click Fest,” so we decided to create a sandbox-style game where the goal was to become the richest player by catching fish. The most interesting mechanic was that all movement and the entire fishing system were controlled by clicking the mouse. For the name, we drew inspiration from the game Stardew Valley, which has a similar vibe, and we gave it our own twist. The game jam lasted 24 hours, and there were five of us working on the project.
+
+Projet Logiciel de présence:
+
+This is a personal project I developed using my own knowledge two years ago. The concept is fairly simple: it’s a program that generates statistics on attendance rates for a classroom at my high school. When someone entered the room, they had to sign in and enter their class name and what they were there to study; then all of this information was saved in a CSV file so it could be reused later to generate statistics, such as attendance rates. This project was built in Python and took me about two weeks to complete.
+
+Projet Logiciel de calcul : Calculation software
+
+This one-night mini-project involved creating a program capable of calculating the derivative of quadratic functions and determining the roots and sign of those functions.

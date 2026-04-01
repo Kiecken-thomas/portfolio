@@ -1,0 +1,45 @@
+:root {
+  --bg-main: #0a0f2c;
+  --bg-secondary: #121a3a;
+  --card-bg: #1a2250;
+
+  --primary: #4cc9f0;   /* bleu plus doux */
+  --primary-dark: #3a86ff;
+
+  --text-main: #ffffff;
+  --text-secondary: #b8c1ec;
+}
+
+html{
+    scroll-behavior: smooth;
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(1, 1, 37);
+    color: white;
+}
+
+body {
+    background: linear-gradient(180deg, var(--bg-main), var(--bg-secondary));
+    color: var(--text-main);
+    font-family: Poppins;
+    overflow-x: hidden;
+    scrollbar-width: none;
+    position: relative;
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+section{
+  text-align: center;
+}
+
+section h1 {
+  font-size: 36px;
+  color: var(--primary);
+  margin-bottom: 30px;
+}
