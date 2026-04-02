@@ -1,0 +1,24 @@
+/* footer */
+
+footer {
+  padding: 30px;
+  background: #050530;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-links a {
+  display: block;
+  color: white;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #00c3ff;
+}

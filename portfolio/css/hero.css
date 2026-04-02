@@ -1,0 +1,17 @@
+/* hero */
+
+#home{
+height:100vh;
+display:flex;
+align-items:center;
+justify-content: center;
+}
+
+.hero-text h1{
+font-size:4rem;
+color: white;
+}
+
+.hero-text span{
+color:#00c3ff;
+}

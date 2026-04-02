@@ -1,0 +1,29 @@
+/* Carousselle */
+
+.carousel {
+  height: 30px;
+  overflow: hidden;
+  margin-top: -50px;
+  margin-bottom: 20px;
+}
+
+.track {
+  display: flex;
+  flex-direction: column;
+  animation: slide 8s infinite;
+}
+
+.track p {
+  height: 40px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  color: #00c3ff;
+}
+
+@keyframes slide {
+  0%   { transform: translateY(0); }
+  33%  { transform: translateY(-40px); }
+  66%  { transform: translateY(-80px); }
+  100% { transform: translateY(0); }
+}
