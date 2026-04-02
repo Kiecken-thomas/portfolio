@@ -1,0 +1,86 @@
+/* =====================
+   VARIABLES
+   ===================== */
+:root {
+  --bg-main:       #0a0f2c;
+  --bg-secondary:  #121a3a;
+  --card-bg:       #1a2250;
+
+  --primary:       #4cc9f0;
+  --primary-dark:  #3a86ff;
+
+  --text-main:     #ffffff;
+  --text-secondary:#b8c1ec;
+
+  /* Spacing system */
+  --section-pad-y: 110px;
+  --section-pad-x: 10%;
+}
+
+/* =====================
+   RESET & BASE
+   ===================== */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  background: linear-gradient(180deg, var(--bg-main), var(--bg-secondary));
+  color: var(--text-main);
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+  scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* =====================
+   SECTIONS
+   ===================== */
+section {
+  text-align: center;
+  padding: var(--section-pad-y) var(--section-pad-x);
+}
+
+/* Hero has its own full-height logic, skip default padding */
+section#home {
+  padding: 0;
+}
+
+section h1 {
+  font-size: 2.2rem;
+  color: var(--primary);
+  margin-bottom: 16px;
+  letter-spacing: 0.5px;
+}
+
+/* Shared subtitle style used by multiple sections */
+.section-subtitle {
+  color: var(--text-secondary);
+  font-size: 1rem;
+  opacity: 0.75;
+  margin-bottom: 50px;
+}
+
+/* =====================
+   RESPONSIVE SPACING
+   ===================== */
+@media (max-width: 768px) {
+  :root {
+    --section-pad-y: 70px;
+    --section-pad-x: 5%;
+  }
+
+  section h1 {
+    font-size: 1.8rem;
+  }
+}

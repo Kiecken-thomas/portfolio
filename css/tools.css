@@ -1,0 +1,41 @@
+/* Tools & Environment */
+
+#tools {
+    padding: 80px 20px;
+}
+
+.tools-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    max-width: 900px;
+    margin: 40px auto 0;
+}
+
+.tool-badge {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 22px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(76, 201, 240, 0.2);
+    border-radius: 40px;
+    font-size: 0.95rem;
+    color: #b8c1ec;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(8px);
+    cursor: default;
+}
+
+.tool-badge:hover {
+    background: rgba(76, 201, 240, 0.1);
+    border-color: rgba(76, 201, 240, 0.5);
+    color: #4cc9f0;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(76, 201, 240, 0.15);
+}
+
+.tool-icon {
+    font-size: 1.2rem;
+}
